@@ -173,9 +173,14 @@ a#btnBack_GolfPage, a#A3 ,a#A4,a#A5,a#A6,a#btnBack_FacilityPage{
 padding: 5px;
 }
 
-a#cancelBooking {
-color: green;
+a#cancelBooking, a#SubmitBooking {
+background-color: green;
 text-shadow: 0 1px 0 green;
+}
+
+a#cancelNo, a#cancelComfirm{
+background-color: red;
+text-shadow: 0 1px 0 red;
 }
 
 p.menuImageLabel {
