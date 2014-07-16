@@ -174,12 +174,12 @@ padding: 5px;
 }
 
 a#cancelBooking {
-color: green;
+background-color: green;
 text-shadow: 0 1px 0 green;
 }
 
 a#cancelNo{
-color: red;
+background-color: red;
 text-shadow: 0 1px 0 red;
 }
 
