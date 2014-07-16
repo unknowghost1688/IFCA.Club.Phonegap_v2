@@ -99,7 +99,7 @@ background-color: white;
 }
 
 
-a#cancelBooking, div#popupDialog, .BookingIcon, a#cancelNo,div#popupConfirmBooking,div#popupFacilityConfirmBooking,.courtLabel {
+a#cancelBooking, div#popupDialog, .BookingIcon, a#cancelNo,div#popupConfirmBooking,div#popup_Booking,div#popupFacilityConfirmBooking,.courtLabel {
 color: white;
 }
 
