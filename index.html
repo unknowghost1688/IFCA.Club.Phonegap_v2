@@ -24,6 +24,48 @@
 
 </head>
 <body>
+    <!--================================= REGISTER PAGE =================================-->
+    <div class="registerPage" id="Div1" data-role="page">
+        <div data-role="header" data-position="fixed">
+
+            <h1>Register V1.0</h1>
+
+            <div class="subtitle">KLGCC</div>
+        </div>
+
+        <div data-role="content" data-theme="a">
+
+            <p class="center">
+                <img src="images/logo.png">
+            </p>
+            <p class="center">Membership No.</p>
+            <input id="Text1" type="text" placeholder="membership no." maxlength="12" />
+            <br />
+
+            <p class="center">Enter the membership no. to register as the mobile user.</p>
+
+            <input id="Button1" type="button" value="Register" />
+
+        </div>
+
+        <div data-role="popup" id="Div2" data-overlay-theme="b" data-theme="a" data-dismissible="false">
+            
+            <div role="main" class="ui-content">
+                <h3>Error</h3>
+
+                <p class="ui-title">Invalid Membership No.</p>                
+                <br />
+
+                <a id="A9" data-role="button" data-mini="true" data-transition="flow" data-theme="e" data-rel="back">OK
+                </a>
+
+            </div>
+
+        </div>
+
+        <script src="js/register.js"></script>
+    </div>
+    <!--================================= (END) REGISTER PAGE (END) =================================-->
 
     <!--================================= REGISTER PAGE =================================-->
     <div class="registerPage" id="register" data-role="page">
